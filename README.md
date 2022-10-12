@@ -20,5 +20,6 @@ The second step still aim to detect the previously presented cereal boxes in sup
 <br/>
 <p align="center">
   <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image3.jpeg" width=40% height=40% class="center">
+  <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image5.jpeg" width=40% height=40% class="center">
 </p>
 <br/>
