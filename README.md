@@ -5,7 +5,7 @@ The aim of this step was to find seven different cereal boxes in supermarket she
 We used the Sift operator in order to find keypoints and descriptors for both images and then we matched the two closest elements for each query descriptor; to distinguish good matches from bad matches we used a minimum number of matches equal to 50. After having found the good matches the homography for the discarder point was found and then we projected the corners of the model image in the scene image in order to draw the bounding box indicating the correspondence in the scene image.
 <br/>
 <br/>
-
+<https://github.com/lolloloschi97/Product_Recognition/blob/main/image2.jpeg
 <br/>
 
 ### Step B - Multiple Instance Detection
