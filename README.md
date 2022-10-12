@@ -5,7 +5,9 @@ The aim of this step was to find seven different cereal boxes in supermarket she
 We used the Sift operator in order to find keypoints and descriptors for both images and then we matched the two closest elements for each query descriptor; to distinguish good matches from bad matches we used a minimum number of matches equal to 50. After having found the good matches the homography for the discarder point was found and then we projected the corners of the model image in the scene image in order to draw the bounding box indicating the correspondence in the scene image.
 <br/>
 <br/>
-<https://github.com/lolloloschi97/Product_Recognition/blob/main/image2.jpeg
+<p align="center">
+  <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image2.jpeg" width=30% height=30% class="center">
+</p>
 <br/>
 
 ### Step B - Multiple Instance Detection
@@ -15,5 +17,7 @@ The second step still aim to detect the previously presented cereal boxes in sup
 - Second, for each scene image we aim to filter out overlapping windows. Firstly, for the sake of computation, the just obtained elements wid_hei_tar, dst_tar, scores_tar are converted in the respective dictionaries dict_wh, dict_dst, dict_scores trough the function convert_wh(). Therefore, for each target image are computed all the pairwise Euclidian distances between the barycenter of the respective found occurrences (results are stored in d_tar): if the computed distance is less then 100px then the lower matched window has been suppressed and dict_wh and dict_scores updated accordingly.
 <br/>
 <br/>
-
+<p align="center">
+  <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image3.jpeg" width=30% height=30% class="center">
+</p>
 <br/>
