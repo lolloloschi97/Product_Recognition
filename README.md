@@ -7,6 +7,7 @@ We used the Sift operator in order to find keypoints and descriptors for both im
 <br/>
 <p align="center">
   <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image2.jpeg" width=30% height=30% class="center">
+    <img src="https://github.com/lolloloschi97/Product_Recognition/blob/main/image4.jpeg" width=49.5% height=49.5% class="center">
 </p>
 <br/>
 
